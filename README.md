@@ -34,11 +34,11 @@ BecaSerAndi/
 
 ## Retos para extenderlo
 
-- [ ] Agregar sonidos con la Web Audio API
-- [ ] Guardar el progreso en `localStorage`
-- [ ] Hacer cada etapa interactiva (mini-quiz antes de avanzar)
-- [ ] Publicarlo en **GitHub Pages** (Settings → Pages → Deploy from branch `main`)
-- [ ] Reemplazar el emoji por un sprite animado con CSS
+- [x] Agregar sonidos con la Web Audio API
+- [x] Guardar el progreso en `localStorage`
+- [x] Hacer cada etapa interactiva (mini-quiz antes de avanzar)
+- [x] Publicarlo en **GitHub Pages** (Settings → Pages → Deploy from branch `main`)
+- [x] Reemplazar el emoji por un sprite animado con CSS
 
 ## Publicar en GitHub Pages
 

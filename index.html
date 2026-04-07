@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Camino a la Beca Ser ANDI 🎓</title>
+  <meta name="description" content="Animación interactiva que representa el camino de aprendizaje de un estudiante hasta obtener la Beca Ser ANDI.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,13 +16,20 @@
     <div class="milestone" id="m1">📚<span>Aprendé</span></div>
     <div class="milestone" id="m2">💡<span>Progresá</span></div>
     <div class="milestone" id="m3">🎓<span>Lográ tu Beca</span></div>
-    <div id="character">🧑‍💻</div>
+    <div id="character" hidden>🧑‍💻</div>
   </div>
 
-  <div id="message"></div>
+  <div id="message" hidden></div>
+
+  <div id="quiz" hidden>
+    <p id="quiz-question"></p>
+    <div id="quiz-options"></div>
+    <p id="quiz-feedback"></p>
+  </div>
 
   <button id="btn" onclick="startJourney()">▶ Iniciar el camino</button>
 
+  <script src="quizData.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
